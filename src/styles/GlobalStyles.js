@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-
+import image from 'assets/images/background.jpg';
 const GlobalStyles = createGlobalStyle`
 @font-face {
     font-family: 'radnika_next';
@@ -22,6 +22,10 @@ html {
     
     box-sizing: border-box;
     font-size: 10px;
+    background: url(${image}) bottom center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 100vh;
 }
 
 *, *:before, *:after {
