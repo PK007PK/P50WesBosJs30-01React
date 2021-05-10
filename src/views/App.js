@@ -1,6 +1,6 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
-import AppProvider, { AppContext } from '../AppContext';
+import AppProvider from '../AppContext';
 import Layout from 'components/Layout';
 import GlobalStyles from 'styles/GlobalStyles';
 import clap from '../assets/sounds/clap.wav';
